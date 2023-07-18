@@ -12,6 +12,7 @@ public class HomeController {
 		@RequestMapping("/") //conroller에 requestMapping 을 작성하면 anootation에서 정보를 보관해서 controller 에 쏴준다.
 		public String index() {
 			log.info("실행1");
+			log.info("실행2");
 			return "index";
 		}
 }
